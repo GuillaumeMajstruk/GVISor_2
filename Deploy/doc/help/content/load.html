@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Continuer une GVI déjà commencée</title>
+		<link rel="stylesheet" type="text/css" href="config.css">
+	</head>
+	
+	<body>	
+		<header>
+			<h1 id="top">Continuer une GVI déjà commencée</h1>
+		</header>
+		<div id="menu">
+			<ul>
+				<li><a href="#top">Aller en haut de la page</a></li>
+				<li><a href="#programme_opening">A l'ouverture de GVIsor</a></li>
+				<li><a href="#chose_save">Choisir un fichier de sauvegarde</a></li>
+				<li><a href="#save_successfully_loaded">Résultat du chargement</a></li>
+				<li><a href="#save_unsuccessfully_loaded">Le chargement a échoué</a></li>
+				<li><a href="#infos_loaded">Ajouter un utilisateur</a></li>
+				<li><a href="#continue_gvi">Continuer la GVI</a></li>
+				<li><a href="../acceuil.html">Retour à la page d'acceuil</a></li>
+			</ul>
+		</div>
+
+		<div class="part">
+			<h2 id="programme_opening">A l'ouverture du programme ou en cours d'utilisation:</h2>
+			<p>
+				Pour charger une GVI <strong>déjà commencée</strong>:
+				<ol>
+					<li>Cliquer sur le bouton "<em>Fichier</em>" en haut à gauche de la <em>page d'acceuil.</em></li>
+					<li>Cliquer ensuite sur "<em>Charger une GVI...</em>"</li>
+				</ol>
+				<figure>
+					<img src="../img/usage/charger_gvi.jpg" alt="charger une gvi" title="Cliquer sur Fichier puis Charger une GVI..."/>
+				</figure>
+				<br>
+			</p>
+		</div>
+
+		<div class="part">
+			<h2 id="chose_save">Choisir un fichier de sauvegarde à charger:</h2>
+			<p>
+				Une fenêtre apparaît alors (<em>Le répertoire d'enregistrement des GVI en cours</em>) dans celle-çi se trouvent un ou plusieurs fichier(s) de sauvegarde de GVI (format .gtmp)<br>
+				<em>il est aussi possible que celui-çi soit vide si <strong>aucune GVI n'est en cours de réalisation</strong>.</em>
+			</p>
+
+			<p>
+				Le nom du fichier contient les informations qui vont permettre de sélectionner la sauvegarde correcte<br>
+				ils sont enregistrés au format suivant: <strong>SnMoteur_NumeroDeLancement_DateDeLaGvi</strong>(<em>.gtmp</em>).<br><br>
+				Sélectionner un fichier dans la liste, puis cliquer sur "<em>ouvrir</em>"
+			</p>
+			<figure>
+				<img src="../img/usage/ouvrir_sauvegarde_gvi.jpg" alt="choisir un fichier" title="Choisir un fichier puis cliquer sur ouvrir"/>
+			</figure>
+			<br>
+		</div>
+
+		<div class="part">
+			<h2 id="save_successfully_loaded">Le fichier a été chargé avec succés:</h2>
+			<p>
+				Si le fichier a été correctement chargé, une fenêtre apparaît pour le spécifier en indiquant le nom du fichier chargé. Cliquer sur "<em>ok</em>" pour passer à l'étape suivante.<br><br>
+				Si ce n'est pas le fichier voulu il suffit de retourner à la <a href="#programme_opening" style="text-decoration: none;">première étape</a> de cette page pour charger le fichier voulu.
+				<br><br>
+			</p>
+			<figure>
+				<img src="../img/usage/chargement_ok.jpg" alt="chargement du fichier effectué" title="Le chargement du fichier de sauvegarde a été effectué avec succés"/>
+			</figure>
+			<br>
+		</div>
+
+		<div class="part">
+			<h2 id="save_unsuccessfully_loaded">Le fichier n'a pas pu être chargé:</h2>
+			<p>
+				Si le fichier n'a pas été correctement chargé, cela peut être dû à plusieurs facteurs:
+				<strong>se reporter à la section "<em>Erreurs</em>" de cette aide.</strong><br><br>
+				Essayez de charger à nouveau le fichier comme indiqué dans la <a href="#programme_opening" style="text-decoration: none;">première étape</a>.
+			</p>
+			<figure>
+				<img src="../img/usage/file_corrupted.jpg" alt="chargement du fichier a échoué" title="Le chargement du fichier de sauvegarde a échoué"/>
+			</figure>
+			<br>
+		</div>
+
+		<div class="part">
+			<h2 id="infos_loaded">Ajouter un utilisateur et/ou continuer le chargement:</h2>
+			<p>
+				Une fois le chargement du fichier de sauvegarde effectué, vous pouvez:
+				<ul>
+					<li>
+						<strong>Ajouter un utilisateur</strong> en ajoutant son nom à la suite du précédent dans le champ numéro 1.
+					</li>
+					<li>
+						<strong>Poursuivre</strong> le chargement sans ajouter d'utilisateur.
+					</li>
+				</ul>
+			</p>
+			<p>
+				Les champs 	<em> Numéro de lancement</em>,
+							<em> SN moteur</em>,
+							<em> Type moteur</em>,
+							<em> Date</em>,
+							<em> Client</em>,
+				sont remplis automatiquement.
+			</p>
+			<p>
+				Cliquer sur le bouton "<em>Prendre en compte les informations du chantier</em>" pour reprendre la GVI dans l'état où elle avait été laissée.				
+			</p>
+			<figure>
+				<img src="../img/usage/infos_valides.jpg" alt="ajout utilisateur et/ou chargement" title="Ajouter un utilisateur et/ou charger directement la GVI"/>
+			</figure>
+			<br>
+		</div>
+
+		<div class="part">
+			<h2 id="continue_gvi">Continuer la GVI:</h2>
+			<p>
+			Le processus de chargement est alors arrivé à son terme, ainsi, il vous est possible de continuer la GVI dans l'état dans lequel elle était à l'enregistrement précédent.
+			</p>
+			<figure>
+				<img src="../img/usage/continue_gvi.jpg" alt="Continuer la GVI" title="Continuer la GVI"/>
+			</figure>
+			<br>
+		</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="smooth_anim.js"></script>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>Ressources/img/Icons/basic_ico/done.ico</file>
+        <file>Ressources/img/Icons/basic_ico/error.ico</file>
+        <file>Ressources/img/Icons/doc_ico/add_document.ico</file>
+        <file>Ressources/img/Icons/doc_ico/delete_document.ico</file>
+        <file>Ressources/img/Icons/doc_ico/document.ico</file>
+        <file>Ressources/img/Icons/doc_ico/document_find.ico</file>
+        <file>Ressources/img/Icons/doc_ico/document_warning.ico</file>
+        <file>Ressources/img/Icons/doc_ico/edit_document.ico</file>
+        <file>Ressources/img/Icons/file_ico/add_file.ico</file>
+        <file>Ressources/img/Icons/file_ico/delete_file.ico</file>
+        <file>Ressources/img/Icons/file_ico/edit_file.ico</file>
+        <file>Ressources/img/Icons/file_ico/file_find.ico</file>
+        <file>Ressources/img/Icons/file_ico/file_warning.ico</file>
+        <file>Ressources/img/Icons/folder_ico/folder.ico</file>
+        <file>Ressources/img/Icons/basic_ico/load_save.ico</file>
+        <file>Ressources/img/Icons/basic_ico/about.ico</file>
+    </qresource>
+    <qresource prefix="/database">
+        <file>Ressources/excel_files/equipement_list.xlsx</file>
+        <file>Ressources/excel_files/operators.xlsx</file>
+    </qresource>
+</RCC>

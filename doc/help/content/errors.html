@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gérer les erreurs d'utilisation</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="config.css">
+	</head>
+	<body>
+		<header>
+			<h1 id="top">Gestion des éventuelles erreurs d'utilisation</h1>
+		</header>
+
+		<div id="menu">
+			<ul>
+				<li><a href="#top">Aller en haut de la page</a></li>
+				<li><a href="#key_error">Les fautes de frappe</a></li>
+				<li><a href="#open_error">Les erreurs d'ouverture</a></li>
+				<li><a href="#load_error">Les erreurs de chargement</a></li>
+				<li><a href="../acceuil.html">Retour à la page d'acceuil</a></li>
+			</ul>
+		</div>
+
+		<div class="part">
+			<h2 id="key_error">Les fautes de frappe:</h2>
+			<p>
+				Les fautes de frappe ne sont pas des erreurs qui engendrent le disfonctionnement du programme. Cependant elles doivent être corrigées pour poursuivre correctement l'enregistrement des données du chantier et ainsi le processus de GVIsor.
+				<br><br>
+				Dans les cas suivants, <strong>un message d'erreur ou d'attention apparaît à l'écran</strong>, dans ce cas une seule option s'offre à vous: Appuyer sur "<em>Ok</em>".<br>
+				Une fois appuyé sur "<em>Ok</em>", le champ concerné est effacé, il suffit alors de le remplir à nouveau correctement.
+			</p>
+			<ul>
+				<li>Erreur dans la saisie du champ "<em>Numéro de Lancement:</em>"</li>
+				<figure>
+					<img src="../img/errors/lancement_wrongcharset.jpg">
+				</figure>
+				<li>Erreur dans la siasie du champ "<em>SN moteur:</em>"</li>
+				<figure>
+					<img src="../img/errors/sn_wrongcharset.jpg">
+				</figure>
+				<li>Erreur dans la saisie du champ "<em>Client:</em>"</li>
+				<figure>
+					<img src="../img/errors/client_wrongcharset.jpg">
+				</figure>
+				<li>Erreur dans la saisie du champ "<em>Opérateurs:"</em></li>
+				<figure>
+					<img src="../img/errors/operator_wrongcharset.jpg">
+				</figure>			
+			</ul>
+		</div>
+
+		<div class="part">
+			<h2 id="open_error">Les erreurs d'ouverture / enregistrement de fichier:</h2>
+			<p>
+				Les erreurs d'ouverture et/ou d'enregistrement sont peut courrantes.
+				<br> <br>
+			</p>
+			<h3>Erreurs d'ouverture d'un fichier:</h3>
+				<ol>
+					<li>Le fichier est déjà ouvert...</li>
+						<p>
+							<strong>Cas particulier:</strong> Dans ce cas le fichier peut être ouvert dans un autre logiciel l'utilisant (Excel par exemple). Essayez de réiterer l'opération. <br>
+							<strong><em>Si le problème persiste, relancez GVIsor et essayez à nouveau d'effectuer l'opération désirée.</em></strong>
+						</p>
+							<figure>
+								<img src="../img/errors/file_alreadyopened.jpg">
+							</figure>
+					<li>Le fichier ne peut pas être ouvert:</li>
+						<p>
+							Le processus d'ouverture du fichier à échoué, essayez à nouveau d'ouvrir le fichier.<br>
+							<strong><em>Si le problème persiste, envoyez un email ainsi qu'une copie du fichier à ouvrir au développeur: <a href="mailto:gumajstruk@airfrance.fr">envoyer un email</a>.</em></strong>
+						</p>
+							<figure>
+								<img src="../img/errors/open_file_error.jpg">
+							</figure>
+							<br>
+				</ol>	
+		</div>
+
+		<div class="part" id="fatal_part">
+			<h2 id="load_error">Erreur de chargement d'un fichier de sauvegarde *.gtmp:</h2>
+			<p>
+				Le programme indique après le chargement du fichier de sauvegarde que celui-çi est corrompue.<br>
+				Essayez de la charger à nouveau en relançant GVIsor.
+				<br><br>
+				<strong><em>Si le problème persiste, envoyez un email ainsi qu'une copie du fichier à ouvrir au développeur: <a href="mailto:gumajstruk@airfrance.fr">envoyer un email</a>.</em></strong>
+			</p>
+			<figure>
+				<img src="../img/errors/corrupted_save_file.jpg">
+			</figure>
+			<br>
+		</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="smooth_anim.js"></script>
+		<script type="text/javascript" src="error_script.js"></script>
+	</body>
+</html>

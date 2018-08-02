@@ -1,0 +1,32 @@
+engine_sn:900000
+work_order_number:88888888
+company_name:AFR
+engine_type:GE90
+operator_name:AAA
+eq-W721:VALIDE
+eq-W722:VALIDE
+eq-W723:VALIDE
+eq-W724:VALIDE
+eq-W725:VALIDE
+eq-W726:NON_VALIDE
+eq-W727:COLLECT
+eq-W728:COLLECT
+eq-W729:COLLECT
+eq-W739:VALIDE
+eq-Harnais core QEC:NO_STATUS
+eq-IDG power feeder:NO_STATUS
+eq-Upper EGT harness:NO_STATUS
+eq-Lower EGT harness:NO_STATUS
+eq-Upper ignition lead:NO_STATUS
+eq-Lower iginition lead:NO_STATUS
+eq-Ignition exciter:NO_STATUS
+eq-Ignition exciter:NO_STATUS
+eq-TCF accelerometer:NO_STATUS
+eq-T49 sensor:NO_STATUS
+eq-T49 sensor:NO_STATUS
+eq-Lower Fire Detector (turbine):NO_STATUS
+eq-Upper Right Fire Detector (turbine) ->:NO_STATUS
+eq-<- Upper Left Fire Detector (turbine):NO_STATUS
+eq-Cover ignition:NO_STATUS
+eq-Terminal block:NO_STATUS
+eq-Cover terminal block:NO_STATUS

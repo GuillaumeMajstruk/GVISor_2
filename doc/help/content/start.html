@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Créer, commencer un nouveau chantier</title>
+		<link rel="stylesheet" type="text/css" href="config.css">
+	</head>
+
+	<body>
+		<header>
+			<h1 id="top">Créer et commencer un nouveau chantier avec GVIsor</h1>
+		</header>
+		<br>
+		<div id="menu">
+				<ul>
+					<li><a href="#top">Aller en haut de la page</a></li>
+					<li><a href="#connection">Se connecter à GVIsor</a></li>
+					<li><a href="#global">Bienvenue sur GVIsor</a></li>
+					<li><a href="#acceuil">Démarrer avec GVIsor</a></li>
+					<li><a href="#correct_info">Vérifier les informations</a></li>
+					<li><a href="#valide_chantier">Prendre en compte les informations</a></li>
+					<li><a href="#item_inspect">Inspection d'un équipement</a></li>
+					<li><a href="#gvi_finished">A la fin d'une GVI</a></li>
+					<li><a href="#recap">Afficher le récapitulatif d'une GVI</a></li>
+					<li><a href="#save">Enregistrer la GVI</a></li>
+					<li><a href="#print">Imprimer la GVI</a></li>
+					<li><a href="../acceuil.html">Retour à la page d'acceuil</a></li>
+				</ul>
+		</div>
+
+		<div class="part">
+			<h2 id="connection">Connexion à GVIsor:</h2>
+			<ul>
+				<li>
+					Entrez votre login pour vous connecter à GVIsor (le même que celui utilisé pour vous connecter sur votre cession). <br><strong>Attention de bien respecter le format mXXXXXX où les 'X' sont les six premiers numéros de votre matricule.</strong> <br>Puis cliquez sur le bouton <em>Valider</em>. Si le login que vous avez entré est dans la base de donnée, la connexion réussie et un message de bienvenue apparaît à l'écran.<br>
+					<figure>
+						<img src="../img/usage/connection_screen.jpg" alt="écran de connexion à GVIsor" title="Remplir le champ avec votre login pour vous connecter à GVIsor.">
+					</figure>
+					<figure>
+						<img src="../img/usage/connection_success.jpg" alt="La connexion est réussie" title="Vous êtes connecté !">
+					</figure>
+				</li>
+				<li>
+					Sinon un message vous indique le problème qu'il y a eu et vous êtes invité à entrer à nouveau votre login pour vous connecter.
+					<figure>
+						<img src="../img/usage/connection_failed.jpg" alt="La connexion a échouée" title="Il faut entrer à nouveau votre login.">
+					</figure>
+				</li>
+				<li>
+					Pour quitter ou annuler la demande de connexion, cliquez sur le bouton <em>Quitter</em>.
+				</li>
+			</ul>
+			<br>
+		</div>
+
+		<div>
+			<div class="part">
+				<h2 id="global">Bienvenue sur GVIsor:</h2>
+				<p>
+					Après le démarrage, vous voiçi sur la <em>page d'acceuil</em> de GVIsor:<br>
+					<figure>
+						<img src="../img/usage/wlc_screen.jpg" alt="écran d'acceuil" title="Page d'acceuil de GVIsor">
+					</figure>
+				</p>
+				<br>
+			</div>
+
+			<div class="part">
+				<h2 id="acceuil">Une fois sur la page d'acceuil de GVIsor:</h2>
+				<p>Rentrer les informations relatives au chantier.<br>
+					Attention, il faut respecter certaines syntaxes:
+					<ul>
+						<li>Le numéro de lancement doit être composé <strong>uniquement</strong> de <strong>8</strong> chiffres.</li>
+						<li>
+							Le SN du moteur doit être composé <strong>uniquement</strong> de <strong>6</strong> chiffres, le type du moteur est automatiquement déduit.
+						</li>
+						<li>
+							L'indicatif de la compagnie d'exploitation du moteur doit être composé des <strong>trois lettres</strong> la représentant <em>(Air France -> AFR ou afr).</em>
+						</li>
+						<li>
+							Le ou les nom(s) des opérateurs allant ou ayant effectué la GVI sont automatiquements remplis par GVIsor après la saisie de votre matricule.
+						</li>
+					</ul>
+					<p><em>En cas d'erreur, un message apparaît à l'écran en vous indiquant l'erreur qui a été effectuée. Il vous est alors possible de corriger celle-çi.</em></p>
+				</p>
+				<figure>
+					<img src="../img/usage/info_chantier.jpg" alt="infotmations à remplir à propos du chantier à effectuer" title="Remplir les informations du chantier (numéro de lancement, sn moteur etc...)">
+				</figure>
+				<br>
+			</div>
+
+			<div class="part">
+				<h2 id="correct_info">Si les informations rentrées sont correctes:</h2>
+				<ul>
+					<li>le fond de <em>l'entête de la page d'acceuil</em> devient vert.</li>
+					<li>le bouton "<em>Prendre en compte les informations du chantier</em>" s'active.</li>
+				</ul>
+				<p>
+					<strong>
+						Si les informations rentrées sont incorrectes ou manquantes, il est impossible de poursuivre le processus.<br>
+						Le fond de <em>l'entête de la page d'acceuil</em> reste rouge.
+					</strong>
+				</p>
+				<figure>
+					<img src="../img/usage/info_chantier_valides.jpg" alt="infotmations à propos du chantier à effectuer sont valides" title="Les informations du chantier à effectuer sont valides">
+				</figure>
+				<br>
+			</div>
+
+			<div class="part">
+				<h2 id="valide_chantier">Cliquer sur le bouton "<em>Prendre en compte les informations du chantier</em>":</h2>
+				<ul>
+					<li><em>L'entête de la page d'acceuil</em> est désactivée afin d'éviter des erreurs involontaires.</li>
+					<li>La liste des équipements à inspecter est alors chargée.</li>			
+					<figure>
+						<img src="../img/usage/list_loaded.jpg" alt="liste des équipements chargée" title="La liste des équipements">
+					</figure>
+				</ul>
+				<br>
+			</div>
+
+			<div class="part">
+				<h2 id="item_inspect">Après l'inspection visuelle d'un équipement:</h2>
+				<p>
+					Il faut sélectionner un <em>status</em> pour chaque équipement de la liste,<br>
+					par défaut les équipements n'ont pas de status définis.<br>
+					Au changement du status d'un équipement, la couleur de l'équipement change selon le code de couleur suivant:
+					<ul>
+						<li>Orange -> <strong>Equipement sans aucun status</strong></li>
+						<li>Vert -> <strong>Equipement valide</strong></li>
+						<li>Rouge -> <strong>Equipement non valide</strong></li>
+						<li>Gris -> <strong>Equipement missing</strong></li>
+						<li>Bleu -> <strong>Equipement collecté</strong> </strong></li>
+					</ul>
+					<p>
+						Deux cas particulliers:<br>
+						<ul>
+							<li>Equipement(s) non valide(s):</li>
+								<p>
+									Si le status d'un équipement est défini comme non valide, il faut compléter cette information grâce aux champs disponibles dans la zone "<em>Renseignement(s) du (/des) defaut(s)</em>" qui sont alors activés pour l'équipement actuel.
+									<ul>
+										<li>Type du défaut:</li>
+										<p>Choisir le type du défaut:</p>
+											<ul>
+												<li><strong>Vide</strong>: dans le cas ou l'équipement est envoyé en Bench Test</li>
+												<li><strong>Défaut de continuité</strong>: Suite à un Banc Firac passé</li>
+												<li><strong>Défaut d'isolement</strong>: Suite à un Banc Firac passé</li>
+												<li><strong>Gaine d'un harnais HS</strong>: Suite à l'inspection visuelle</li>
+												<li><strong>Une ou plusieurs prise HS</strong>: Suite à l'inspection visuelle</li>
+											</ul>
+										<br>
+
+										<li>Gestion du défaut:</li>
+											<ul>
+												<li><strong>Réparable</strong>: Les réparations sont effectuées par les équipes d'éléctricien de l'atelier.</li>
+												<li><strong>Envoie en réparation</strong>: Les réparations ne sont pas effectuées par les équipes d'éléctricien de l'atelier.</li>
+												<li><strong>Envoie en Bench Test</strong>: Le ou les équipement(s) sont envoyé(s) en test.</li>
+											</ul>
+										<br>
+
+										<li>Complément d'information:</li>
+											<p>C'est un champ libre pour écrire des informations complémentaires sans limites de tailles.</p>
+									</ul>
+								</p>
+							<li>Equipement(s) missing:</li>
+								<p>
+									<em><strong>Dans le cas d'un équipement missing, seul le champ "<em>Complément d'information</em>" est activé afin de pouvoir renseigner par exemple la raison du missing.</strong></em>
+								</p>
+						</ul>
+					</p>
+					<p>Une <em>barre de progression</em> située en bas de la fenêtre principale indique l'évolution de la GVI en cours.</p>
+					<figure>
+						<img src="../img/usage/color_code.jpg" alt="code couleur des équipements" title="Code couleur des équipements et barre de progression en bas de la fenêtre">
+					</figure>
+					<p><strong><em>Chaque modification est directement enregistré dans un fichier de sauvegarde. Un message apparaît dans la zone de notification en bas à gauche de la fenêtre principale.</em></strong></p>
+					<figure>
+						<img src="../img/usage/auto_save.jpg" alt="auto save" title="Notification de l'enregistrement automatique d'un changement de status d'un équipement.">
+					</figure>
+				</p>
+				<br>
+			</div>
+
+			<div class="part">
+				<h2 id="gvi_finished">Lorsque tous les équipements de la liste ont un status (valide / non valide / missing / collect):</h2>
+				<ul>
+					<li>La barre de progression est à 100%</li>
+					<li>Le bouton "<em>Vérifier les informations</em>" devient <strong>actif</strong>.</li>
+
+				</ul>
+				<p>
+					Cliquer sur "<em>Vérifier les informations</em>" afin de continuer en vérifiant que les informations rentrées soient correctes.
+				</p>
+				<figure>
+						<img src="../img/usage/gvi_finished.jpg" alt="tous les équipements ont un status" title="Activation du bouton 'Vérifier les informations et barre de progression à 100%'">
+				</figure>
+				<br>
+			</div>
+
+			<div class="part">
+				<h2 id="recap">Récapitulatif de la GVI:</h2>
+					<p>La fenêtre "<em>Récapitulatif de la GVI avant validation</em>" apparaît. Elle est divisée en 4 sections:</p>
+					<ul>
+						<li>Equipement(s) Valide(s)</li>
+						<li>Equipement(s) Non Valide(s)</li>
+						<li>Equipement(s) Missing</li>
+						<li>Equipement(s) Collect(s)</li>
+					</ul>
+					<p>
+						Chacune de ses sections contient une liste des éléments inspectés et ceux-çi sont répartis dans la section appropriée d'après le status qui leur a été atribué.<br>
+						Il s'agit donc dans cette fenêtre de <strong>vérifier que le status attribué aux équipements est le bon.</strong>
+					</p>
+					<figure>
+						<img src="../img/usage/recap_scrn.jpg" alt="fenêtre de Récapitulatif" title="Fenêtre de récapitulatif de la GVI">
+					</figure>
+					<br>
+					<p>
+						<strong>Si une erreur a été faite</strong>, un clique sur le bouton "<em>modifier les informations</em>" redirige vers la page principale de GVIsor où il vous est possible de modifier le status de l'équipement en question. <br>
+						<strong>Si la GVI est terminée</strong> et que tous les équipements ont le status approprié, cliquer sur "<em>Terminer la GVI</em>"
+					</p>
+					<figure>
+						<img src="../img/usage/recap_scrn_btn.jpg" alt="boutons de la fenêtre de Récapitulatif" title="Modifier les informations ou les valider en cliquant sur le bouton approprié">
+					</figure>
+					<br>
+			</div>
+
+			<div class="part">
+				<h2 id="save"><mark>Enregistrer les resultats de la GVI:</mark> (en cours de développement)</h2>
+					<p>Une fenêtre de type dialogue apparaît vous offrant deux options:</p>
+					<ul>
+						<li><em>Save</em>: Lancer l'enregistrement de la GVI au format excel.</li>
+						<li><em>Cancel</em>: Ne pas enregistrer et aller à l'étape suivante.</li>
+					</ul>
+					<figure>
+						<img src="../img/usage/export.jpg" alt="Enregistrer les résultats de la GVI" title="Fenêtre d'enregistrement de fin de GVI">
+					</figure>
+					<br>
+			</div>
+
+				<div class="part">
+					<h2 id="print"><mark>Imprimer le resultats de la GVI:</mark> (en cours de développement)</h2>
+						<p>Une fenêtre de type dialogue apparaît vous offrant deux options:</p>
+						<ul>
+							<li><em>Print</em>: Lancer l'impression du résultat de la GVI.</li>
+							<li><em>Cancel</em>: Ne pas imprimer.</li>
+						</ul>
+						<figure>
+							<img src="../img/usage/print.jpg" alt="Imprimer le résultats de la GVI" title="Fenêtre d'impression du résultat de la GVI">
+						</figure>
+						<br>
+				</div>
+		</div>
+
+		<div class="part">
+			<p><strong>En cas d'erreur lors du démarrage ou du fonctionnement du programme:</strong><br/>
+			merci de se reporter à la section <a href="errors.html">Gérer les problèmes d'utilisation</a>.
+			</p>
+		</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="smooth_anim.js"></script>
+	</body>
+</html>
